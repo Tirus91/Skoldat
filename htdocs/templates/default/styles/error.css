@@ -1,0 +1,79 @@
+body, html, div,
+a, p, img, span,
+table, tr, th, td,
+h1, h2, h3, h4, h5,
+ul, ol, li,
+fieldset, form, label, legend
+{
+	margin: 0;
+	padding: 0;
+	border: 0 none;
+}
+
+body,html {
+	background-color: #008080;
+	color: #000;
+	font-family: "Trebuchet MS", "Geneva CE", lucida, sans-serif;
+	font-size: 100%;
+	text-align: center;
+}
+
+h1,h2 {
+	background-color: #d14d40;
+	color: #fff;
+	margin: 0 -20px;
+	padding: 15px 0;
+	text-align: center;
+}
+
+h1 {
+	font-size: 150%;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+}
+
+h2 {
+	padding: 5px 0 35px 0;
+	font-size: 115%;
+	font-weight: bold;
+	border-bottom: 1px solid black;
+}
+
+#content {
+	width: 650px;
+	margin: 25px auto 0;
+	padding: 0 20px 20px;
+	background: white;
+	border: 1px solid black;
+	text-align: left;
+}
+
+p {
+	margin: 1.35em 0;
+}
+
+a:link,a:visited {
+	padding: 0 2px;
+	color: #d14d40;
+	text-decoration: underline;
+	border: 1px none;
+}
+
+a:hover {
+	color: blue;
+}
+
+hr {
+	background: white;
+	color: white;
+	border-top: 1px solid #c7c7c7;
+}
+
+ul {
+	padding: 0.5em 3em 1em;
+}
+
+li {
+	list-style-type: disc;
+}

@@ -1,0 +1,159 @@
+* { font-family: Verdana,Geneva,Arial,Helvetica,sans-serif; font-style: normal; font-variant: normal; font-weight: normal; font-size: x-small; line-height: normal; font-size-adjust: none; }
+h1{font-weight: bold; font-size: small;}
+h2{font-weight: bold; font-size: small;}
+h3{font-weight: bold;}
+body { background:#e6e6e6; }
+button {background:white; cursor: pointer; }
+th { background: silver; text-align: left; padding: 5px 5px 5px 5px; }
+td { padding: 1px 2px 1px 5px; }
+legend { padding: 1px 2px 1px 5px; }
+input { padding: 2px 2px 2px 2px; }
+.required { color: darkred; }
+optgroup { font-weight: bold; color:black; font-size:110%;}
+a,a:hover,a:visited { color: #0761a6; text-decoration: none; cursor: hand; }
+.addRow { background: url(/public/images/icons/Add.png) no-repeat; background-position:center; cursor: pointer; }
+.delRow { background: url(/public/images/icons/Subtract.png) no-repeat;background-position:center; cursor: pointer; }
+.savebutton { background: url(/public/images/icons/Save.png) no-repeat;background-position:left; width:80px; text-align: right; padding-right: 3px; cursor: pointer; }
+.addbutton { margin-top:10px; background: url(/public/images/icons/Add.png) no-repeat;background-position:left; width:80px; text-align: right; padding-right: 3px; cursor: pointer; }
+.delbutton { margin-top:10px; background: url(/public/images/icons/Refresh.png) no-repeat;background-position:left; width:120px; text-align: right; padding-right: 3px; cursor: pointer; }
+
+.filter { background: url(/public/images/icons/Filter.png) no-repeat;background-position:left; width:70px; text-align: right; padding-right: 3px; cursor: pointer; }
+.reset_filter { background: url(/public/images/icons/Refresh.png) no-repeat;background-position:left; width:80px; text-align: right; padding-right: 3px; cursor: pointer; }
+.remove { background: url(/public/images/icons/Cross.png) no-repeat; cursor: pointer; }
+.accept { background: url(/public/images/icons/Tick.png) no-repeat; cursor: pointer; }
+.face { background: url(/public/images/icons/Face.png) no-repeat; cursor: pointer; }
+.decline { background: url(/public/images/icons/Dislike.png) no-repeat; cursor: pointer; }
+.lock { background: url(/public/images/icons/Lock.png) no-repeat; cursor: pointer; }
+.export_csv { background: url(/public/images/icons/Box.png) no-repeat; width:130px; background-position:left; text-align: right; padding-right: 3px; }
+.edit { background: url(/public/images/icons/Pencil.png) no-repeat; cursor: pointer; }
+.hidden {display:none; visibility: hidden;}
+select {background: url(/public/images/icons/Pencil.png) no-repeat right white;}
+#license_info div {
+    
+}
+#license_info div span{
+    font-weight: bold;
+}
+#pagination {
+    clear: both;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+#pagination li{
+    display: inline;
+}
+
+#pagination ul{
+    display: inline;
+    list-style: none;
+}
+
+
+.main_body { margin: 0 auto; width:981px; }
+.main_body #head { background: url(/templates/default/images/head.gif) no-repeat; width: 981px; height:143px; }
+.main_body #head #top_bar { float: right; width: 750px; margin-right: 20px; margin-top: 18px;}
+.main_body #head #middle_bar { float: right; width: 750px; margin-right: 20px; margin-top: 15px; font-size: large; text-align: center;}
+.main_body #head .bottom_bar { float: right; width: 750px; margin-right: 19px; margin-top:7px;}
+
+.main_body #head .bottom_bar #left { width:375px; float: left;}
+.main_body #head .bottom_bar #right { text-align: right; width:375px; float: right;}
+.main_body #head .bottom_bar #right .curr_time { float: right;}
+
+.main_body #body_page { background: url(/templates/default/images/body.gif) repeat-y; width:981px; min-height:300px; overflow: auto; }
+.main_body #body_page #main_block { float:right; margin-right:20px; width:760px; }
+.main_body #body_page #main_block #text { clear:both; text-align: justify; }
+.main_body #body_page #menu { float:left; width:165px; margin-left:20px; }
+.main_body #footer { background: url(/templates/default/images/foot.gif) no-repeat; width: 981px; height:62px; }
+
+tr.past{background-color:#f07700;}
+tr.future{background-color:#91c5ee;}
+tr.running{background-color:#8ed991;}
+.main_body #body_page #menu .menu_top_1 { background: url(/templates/default/images/menu_top_blue.png) no-repeat; height: 28px; margin-top:5px; text-align: center; }
+.main_body #body_page #menu .menu_top_0 { background: url(/templates/default/images/menu_top_green.png) no-repeat; height: 28px; margin-top:5px; text-align: center; }
+.main_body #body_page #menu .menu_top_2 { background: url(/templates/default/images/menu_top_orange.png) no-repeat; height: 28px; margin-top:5px; text-align: center; }
+
+.main_body #body_page #menu .menu_top_1 .nadpis { color:black; vertical-align: middle; font-size: small; font-weight:bold; padding-top:8px;}
+.main_body #body_page #menu .menu_top_2 .nadpis { color:black; vertical-align: middle; font-size: small; font-weight:bold; padding-top:8px;}
+.main_body #body_page #menu .menu_top_0 .nadpis { color:black; vertical-align: middle; font-size: small; font-weight:bold; padding-top:8px;}
+
+
+
+.main_body #body_page #menu .menu_body { background: url(/templates/default/images/menu_body.png) repeat-y;padding-left: 12px; }
+.main_body #body_page #menu .menu_body ul, .main_body #body_page #menu .menu_body ul li  { padding: 0; margin: 0; list-style: none; }
+.main_body #body_page #menu .menu_body ul li { }
+.main_body #body_page #menu .menu_body ul li a,.main_body #body_page #menu .menu_body ul li a:visited { text-decoration: none; }
+
+.main_body #body_page #menu .menu_body ul li a:hover { text-decoration: underline;}
+
+
+.main_body #body_page #menu .menu_foot { background: url(/templates/default/images/menu_foot.png) no-repeat; height: 15px; }
+
+.main_body #body_page #login_page {}
+.main_body #body_page #login_page #login_information {}
+.main_body #body_page #login_page .login_form {}
+.main_body #body_page #login_page .login_form label {display:block; width:400px; clear:both; text-align: right;}
+.main_body #body_page #login_page .login_form input {color:brown; width: 200px;}
+.main_body #body_page #login_page .login_form #button { display:block; clear:both; width:120px;}
+
+
+.main_body #body_page #edit_page {}
+.main_body #body_page #edit_page #edit_information {}
+.main_body #body_page #edit_page .edit_form {}
+.main_body #body_page #edit_page .edit_form label {display:block; width:400px; clear:both; text-align: right;}
+.main_body #body_page #edit_page .edit_form input {color:brown; width: 200px;}
+.main_body #body_page #edit_page .edit_form #button { display:block; clear:both; width:120px;}
+.main_body #body_page #edit_page .edit_form select {color:brown; width: 200px;}
+
+
+.main_body #body_page #changepwd .changepwd_form label {display:block; width:400px; clear:both; text-align: right;}
+.main_body #body_page #changepwd .changepwd_form input {color:brown; width: 200px;}
+.main_body #body_page #changepwd .changepwd_form #button { display:block; clear:both; width:100px;}
+.main_body #body_page #changepwd .changepwd_form select {color:brown; width: 200px;}
+
+
+.main_body #body_page .editRoom {}
+.main_body #body_page .editRoom .editRoomField {}
+.main_body #body_page .editRoom .editRoomField label {display:block; width:400px; clear:both; text-align: right;}
+.main_body #body_page .editRoom .editRoomField input {color:brown; width: 200px;}
+.main_body #body_page .editRoom .editRoomField #button { display:block; clear:both; width:120px;}
+
+
+.main_body #body_page .addRoom {}
+.main_body #body_page .addRoom .repeatdiv {}
+.main_body #body_page .addRoom .repeatdiv label {display:block; width:400px; clear:both; text-align: right;}
+.main_body #body_page .addRoom .repeatdiv input {color:brown; width: 200px;}
+.main_body #body_page .addRoom .repeatdiv #button { display:block; clear:both; width:120px;}
+
+.main_body #body_page .addRecu {}
+.main_body #body_page .addRecu .repeatdiv {}
+.main_body #body_page .addRecu .repeatdiv label {display:block; width:400px; clear:both; text-align: right;}
+.main_body #body_page .addRecu .repeatdiv input {color:brown; width: 200px;}
+.main_body #body_page .addRecu .repeatdiv .datepicker {width: 170px;}
+.main_body #body_page .addRecu .repeatdiv .timepicker {width: 170px;}
+.main_body #body_page .addRecu .repeatdiv select {color:brown; width: 200px;}
+.main_body #body_page .addRecu .repeatdiv #button { display:block; clear:both; width:120px;}
+
+
+.main_body #body_page #main_settings {}
+.main_body #body_page #main_settings label {display:block; width:400px; clear:both; text-align: right;}
+.main_body #body_page #main_settings input {color:brown; width: 200px;}
+.main_body #body_page #main_settings .datepicker {width: 170px;}
+.main_body #body_page #main_settings .timepicker {width: 170px;}
+.main_body #body_page #main_settings select {color:brown; width: 200px;}
+.main_body #body_page #main_settings #button { display:block; clear:both; width:120px;}
+
+.main_body #body_page .addGrou {}
+.main_body #body_page .addGrou label {display:block; width:400px; clear:both; text-align: right;}
+.main_body #body_page .addGrou input {color:brown; width: 200px;}
+.main_body #body_page .addGrou select {color:brown; width: 200px;}
+.main_body #body_page .addGrou .savebutton { background: url(/templates/default/images/icons/Save.png) no-repeat;background-position:left; width:80px; text-align: right; padding-right: 3px; cursor: pointer; }
+
+
+/* css for timepicker */
+.ui-timepicker-div .ui-widget-header { margin-bottom: 8px; }
+.ui-timepicker-div dl { text-align: left; }
+.ui-timepicker-div dl dt { height: 25px; margin-bottom: -25px; }
+.ui-timepicker-div dl dd { margin: 0 10px 10px 65px; }
+.ui-timepicker-div td { font-size: 90%; }
+.ui-tpicker-grid-label { background: none; border: none; margin: 0; padding: 0; }
