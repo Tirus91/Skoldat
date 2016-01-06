@@ -1,0 +1,15 @@
+{
+	"name": "tirus/skoldat",
+	"type": "app",
+	"description": "Databaze pronajmu pro skoly",
+	"keywords": ["tirus", "skoldat"],
+	"homepage": "http://tirus.eu",
+	"license": ["BSD-3-Clause", "GPL-2.0", "GPL-3.0"],
+	"authors": [
+		{
+			"name": "Tomáš Kulhánek",
+			"homepage": "http://tirus.eu",
+			"email": "tirus91@tirus.eu"
+		}
+	]
+}
